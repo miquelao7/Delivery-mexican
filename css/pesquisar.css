@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #000;
+    color: #fff;
+    height: min-content;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5em 0 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header>div {
+    height: fit-content;
+}
+
+svg {
+    fill: white;
+    font-size: 2em;
+    width: 1em;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 1.25em;
+}
+
+#Logo {
+    background-color: white;
+}
+
+#voltar {
+    background-color: #000;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 1em;
+}
+
+main,
+#Menu {
+    position: relative;
+}
+
+main {
+    padding: 1em;
+    height: 70vh;
+    text-align: center;
+}
+
+#DivInputPesquisa {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#InputPesquisa {
+    background-color: #000;
+    width: 350px;
+    height: 50px;
+    border: 0;
+    padding: 8px 16px 8px 60px;
+    color: #fff;
+}
+
+#DivInputPesquisa button {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 15%;
+    background-color: #000;
+    border: 0;
+}
